@@ -11,3 +11,4 @@ Python: Python 3.5.2
 
 Usage:python  killLongRunningImpalaQuery.py  queryRunningSeconds [KILL]
 
+
