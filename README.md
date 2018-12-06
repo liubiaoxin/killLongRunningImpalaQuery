@@ -17,6 +17,7 @@ Usage:python  killLongRunningImpalaQuery.py  queryRunningSeconds [KILL]
 
 附注：
 主要是用到cm的api，获取impala的查询任务，找出长时间运行未结束的任务，并取消！
+
 为了解决hue长时间不释放impala连接，导致任务池满了，后续任务超时问题！
 
 当然对于这个问题，有更好的解决方案：
