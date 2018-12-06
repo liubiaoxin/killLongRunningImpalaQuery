@@ -20,6 +20,7 @@ Usage:python  killLongRunningImpalaQuery.py  queryRunningSeconds [KILL]
 为了解决hue长时间不释放impala连接，导致任务池满了，后续任务超时问题！
 
 当然对于这个问题，有更好的解决方案：
+
 在hue的配置界面，调整hue_safety_valve.ini 参数如下：
 
 [impala]
