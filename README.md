@@ -25,9 +25,13 @@ Usage:python  killLongRunningImpalaQuery.py  queryRunningSeconds [KILL]
 在hue的配置界面，调整hue_safety_valve.ini 参数如下：
 
 [impala]
+
 query_timeout_s=20
+
 session_timeout_s=20
+
 [beeswax]
+
 close_queries=true
 
 设置hue查询和session的超时时间，20s之后就会自动关闭查询连接！
