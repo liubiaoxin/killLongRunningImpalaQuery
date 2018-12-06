@@ -1,0 +1,2 @@
+# killLongRunningImpalaQuery
+取消impala长时间运行的查询
