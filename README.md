@@ -37,5 +37,8 @@ close_queries=true
 设置hue查询和session的超时时间，20s之后就会自动关闭查询连接！
 
 
+http://10.50.8.112:7180/api/v17/clusters/Cluster%201/services/impala/impalaQueries?query_duration%20%3E%205s
+
+
 
 
